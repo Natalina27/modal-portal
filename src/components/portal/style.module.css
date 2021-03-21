@@ -1,0 +1,33 @@
+.portal {
+    border-style: solid;
+    border-radius: 10px;
+    margin: 70px auto;
+    padding: 20px;
+    background: cadetblue;
+    width: 70%;
+    transition: all 5s ease-in-out;
+}
+
+.portal h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.portal .close {
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    border-radius: 10px;
+
+}
+.portal .close:hover {
+    color: #828684;
+}
+.portal .content {
+    max-height: 30%;
+    overflow: auto;
+}

@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-container {
+    margin: 25px;
+}
+.modalBtn {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    background-color: darkred;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: 0 transparent !important;
+}
+.modalBtn:hover {
+    background: rosybrown;
+}
+
+.portalBtn {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    background-color: darkcyan;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: 0 transparent !important;
+}
+.portalBtn:hover {
+    background: cadetblue;
+}
